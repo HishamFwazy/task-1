@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>userName</title>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <div id="formDiv">
+        <form id="userForm">
+            <h2>USER Name</h2>
+            <input type="text" id="userName" placeholder="User Name" required><br>
+            <input type="text" id="age" placeholder="Age"  required><br>
+            <input type="text" id="key" placeholder="ID" required><br>
+
+
+
+            <input type="radio" name="status" value="active" id="active" required>
+            <label for="active">Active</label>
+            <input type="radio" name="status" value="notactive" id="notactive" required>
+            <label for="notactive">not Active</label><br>
+            <button type="submit">Store</button>
+        </form>
+        <br>
+        <input type="text" id="ShowItem" placeholder="Enter ID" ><br>
+        <button id="retrieveButton">Show Item</button>
+        <br>
+        <div id="retrieve"></div>
+        <br>
+        <input type="text" id="removeKey" placeholder="Enter id to delete item" required><br>
+        <button id="removeButton">Remove Item</button>
+        <br>
+        <button id="clearButton">Clear all data</button>
+        <script src="script.js"></script>
+  </div>
+</body>
+</html>
